@@ -55,9 +55,6 @@ void        gimp_editor_create_menu       (GimpEditor           *editor,
                                            const gchar          *menu_identifier,
                                            const gchar          *ui_path,
                                            gpointer              popup_data);
-gboolean    gimp_editor_popup_menu        (GimpEditor           *editor,
-                                           GimpMenuPositionFunc  position_func,
-                                           gpointer              position_data);
 gboolean    gimp_editor_popup_menu_at_pointer (GimpEditor     *editor,
                                                const GdkEvent *trigger_event);
 gboolean   gimp_editor_popup_menu_at_rect (GimpEditor         *editor,
