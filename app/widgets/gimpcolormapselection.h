@@ -76,6 +76,11 @@ gboolean    gimp_colormap_selection_set_index  (GimpColormapSelection *selection
 
 gint        gimp_colormap_selection_max_index  (GimpColormapSelection *selection);
 
+GimpPaletteEntry * gimp_colormap_selection_get_selected_entry (GimpColormapSelection *selection);
+
+void               gimp_colormap_selection_get_entry_rect (GimpColormapSelection *selection,
+                                                           GimpPaletteEntry      *entry,
+                                                           GdkRectangle          *rect);
 
 #endif /* __GIMP_COLORMAP_SELECTION_H__ */
 
